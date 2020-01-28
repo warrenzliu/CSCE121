@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		805940F5207FE7EA00AB2345 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 805940F4207FE7EA00AB2345 /* main.cpp */; };
+		805940FD207FE81D00AB2345 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 805940FB207FE81D00AB2345 /* Node.cpp */; };
+		80594100207FE82F00AB2345 /* LinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 805940FE207FE82F00AB2345 /* LinkedList.cpp */; };
+		80594103207FE84600AB2345 /* TemperatureDatabase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80594101207FE84600AB2345 /* TemperatureDatabase.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		805940EF207FE7EA00AB2345 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		805940F1207FE7EA00AB2345 /* Temperature Queries */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Temperature Queries"; sourceTree = BUILT_PRODUCTS_DIR; };
+		805940F4207FE7EA00AB2345 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		805940FB207FE81D00AB2345 /* Node.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
+		805940FC207FE81D00AB2345 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
+		805940FE207FE82F00AB2345 /* LinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedList.cpp; sourceTree = "<group>"; };
+		805940FF207FE82F00AB2345 /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
+		80594101207FE84600AB2345 /* TemperatureDatabase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TemperatureDatabase.cpp; sourceTree = "<group>"; };
+		80594102207FE84600AB2345 /* TemperatureDatabase.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TemperatureDatabase.hpp; sourceTree = "<group>"; };
+		805941042092ED6F00AB2345 /* temps-3lines.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "temps-3lines.dat"; sourceTree = "<group>"; };
+		805941262093161C00AB2345 /* temps-7lines.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "temps-7lines.dat"; sourceTree = "<group>"; };
+		805941272093164700AB2345 /* s050_TX-70s.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "s050_TX-70s.dat"; sourceTree = "<group>"; };
+		805941282093290A00AB2345 /* queries.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = queries.dat; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		805940EE207FE7EA00AB2345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		805940E8207FE7EA00AB2345 = {
+			isa = PBXGroup;
+			children = (
+				805940F3207FE7EA00AB2345 /* Temperature Queries */,
+				805940F2207FE7EA00AB2345 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		805940F2207FE7EA00AB2345 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				805940F1207FE7EA00AB2345 /* Temperature Queries */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		805940F3207FE7EA00AB2345 /* Temperature Queries */ = {
+			isa = PBXGroup;
+			children = (
+				805940F4207FE7EA00AB2345 /* main.cpp */,
+				805940FB207FE81D00AB2345 /* Node.cpp */,
+				805940FC207FE81D00AB2345 /* Node.hpp */,
+				805940FE207FE82F00AB2345 /* LinkedList.cpp */,
+				805940FF207FE82F00AB2345 /* LinkedList.hpp */,
+				80594101207FE84600AB2345 /* TemperatureDatabase.cpp */,
+				80594102207FE84600AB2345 /* TemperatureDatabase.hpp */,
+				805941042092ED6F00AB2345 /* temps-3lines.dat */,
+				805941282093290A00AB2345 /* queries.dat */,
+				805941262093161C00AB2345 /* temps-7lines.dat */,
+				805941272093164700AB2345 /* s050_TX-70s.dat */,
+			);
+			path = "Temperature Queries";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		805940F0207FE7EA00AB2345 /* Temperature Queries */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 805940F8207FE7EA00AB2345 /* Build configuration list for PBXNativeTarget "Temperature Queries" */;
+			buildPhases = (
+				805940ED207FE7EA00AB2345 /* Sources */,
+				805940EE207FE7EA00AB2345 /* Frameworks */,
+				805940EF207FE7EA00AB2345 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Temperature Queries";
+			productName = "Temperature Queries";
+			productReference = 805940F1207FE7EA00AB2345 /* Temperature Queries */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		805940E9207FE7EA00AB2345 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Ting Liu";
+				TargetAttributes = {
+					805940F0207FE7EA00AB2345 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 805940EC207FE7EA00AB2345 /* Build configuration list for PBXProject "Temperature Queries" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 805940E8207FE7EA00AB2345;
+			productRefGroup = 805940F2207FE7EA00AB2345 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				805940F0207FE7EA00AB2345 /* Temperature Queries */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		805940ED207FE7EA00AB2345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805940F5207FE7EA00AB2345 /* main.cpp in Sources */,
+				80594100207FE82F00AB2345 /* LinkedList.cpp in Sources */,
+				805940FD207FE81D00AB2345 /* Node.cpp in Sources */,
+				80594103207FE84600AB2345 /* TemperatureDatabase.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		805940F6207FE7EA00AB2345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		805940F7207FE7EA00AB2345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		805940F9207FE7EA00AB2345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		805940FA207FE7EA00AB2345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		805940EC207FE7EA00AB2345 /* Build configuration list for PBXProject "Temperature Queries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				805940F6207FE7EA00AB2345 /* Debug */,
+				805940F7207FE7EA00AB2345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		805940F8207FE7EA00AB2345 /* Build configuration list for PBXNativeTarget "Temperature Queries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				805940F9207FE7EA00AB2345 /* Debug */,
+				805940FA207FE7EA00AB2345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 805940E9207FE7EA00AB2345 /* Project object */;
+}
